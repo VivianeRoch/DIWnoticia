@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>ProjetoA</title>
+    <script src="script.js"></script>
+    <script>
+        function Calcula() {
+            document.getElementById('resultado').innerHTML = soma(2, 2);
+        }
+    </script>
 </head>
-<body>
- teste  
+<body onload='Calcula()'> 
+  <h1>Projeto web</h1> 
+  <p>Sejam todos bem vindo ao nosso curso</p>
+
+  A soma de 2 + 2 é: <span id='resultado'></span>
 </body>
 </html>
