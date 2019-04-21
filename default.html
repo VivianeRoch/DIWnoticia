@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stop News</title>
+  <link href="normalize.css" rel="stylesheet">
+  <link href="noticia.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins|Roboto:300" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <nav>
+      <div class="menu">      
+      <div class="logo">
+        <a href="">
+            <img src="logo.png" />
+        </a>
+        <div id="divBusca">
+          <img src="search3.png" width="10%" alt="Buscar..."/>
+          <input type="text" id="txtBusca" placeholder="Buscar..."/>
+          <button id="btnBusca">Buscar</button>
+        </div>
+      </div>
+      
+      <div class="lista">
+      <ul>
+          <li><a href="default.html">Home</a></li>
+          <li><a href="Negocios">Negocios</a></li>
+          <li><a href="Politica.html">Politica</a></li>
+          <li><a href="Ciencia">Ciencia</a></li>       
+          <li><a href="Mundo">Mundo</a></li>
+          <li><a href="Livros">Livros</a></li>
+          <li><a href="Esportes">Esportes</a></li>
+          <li><a href="Tecnologia">Tecnologia</a></li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="conteudo-slide">
+        <div class="swiper-banner">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <!-- titulo h1 -->
+                <!-- imagem principal -->
+              </div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+              <div class="swiper-slide">Slide 10</div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination-banner"></div>
+        </div>
+    </div>
+  </main>
+      
+  <section class="conteudo">
+
+    <div class="noticia1 coluna">
+      <a href="noticia.html">
+          <h2>Noticia 1</h2><br>
+          <img src="http://lorempixel.com/400/200/technics" alt=""><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum itaque molestias qui ratione perspiciatis
+            non rem deleniti reprehenderit ducimus, alias explicabo enim aperiam beatae? Culpa, accusamus reiciendis.
+            Placeat, corrupti pariatur?</p>
+        </a>
+      </div>
+
+      <div class="noticia2 coluna">
+        <h2>Noticia 2</h2><br>
+        <a href=""><img src="http://lorempixel.com/400/200/city" alt=""></a><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, eaque, fugit quaerat ullam quas
+          necessitatibus doloremque atque nisi cum quidem magni voluptate odio perspiciatis ipsum, sed iure hic
+          voluptatum!</p>
+      </div>
+
+      <div class="noticia3 coluna">
+        <h2>Noticias 3</h2><br>
+        <img src="http://lorempixel.com/400/200" alt=""><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, eaque, fugit quaerat ullam quas
+          necessitatibus doloremque atque nisi cum quidem magni voluptate odio perspiciatis ipsum, sed iure hic
+          voluptatum!</p>
+        </div>
+      </div>
+    </section>
+      
+  <footer>
+    <div>
+      ©Copyright...
+    </div>
+  </footer>
+</body>
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-banner', {
+      pagination: {
+        el: '.swiper-pagination-banner',
+      },
+    });
+</script>
+</html>
