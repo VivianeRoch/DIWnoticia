@@ -1,130 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Stop News</title>
-  <title>ícone</title>
-  <link rel="shortcut icon" href="img/SN-logo.png">
-  <link href="noticia.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/img/SN-logo - ic.png">
   <link rel="stylesheet" href="css/swiper.min.css">
-  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="cabecalho">
     <nav>
-      <div class="menu">      
-      <div class="busca">
-        <a href="">
+      <div class="menu">
+        <div class="logo">
+          <a href="">
             <img class="menu" src="img/SN-logo.png" />
-        </a>
-      </div>
-    <div class="busca">
-        <div id="divBusca">
-          <input type="text" id="txtBusca" placeholder="Buscar..."/>
-          <button id="btnBusca"><img src="img/search.png"/></button>
+          </a>
+        </div>
+        <div class="busca">
+          <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar..." />
+            <button id="btnBusca"><img src="img/search.png" /></button>
+          </div>
+        </div>
+
+        <div class="lista">
+          <ul>
+            <li><a href="Negocios">Negocios</a></li>
+            <li><a href="Politica.html">Politica</a></li>
+            <li><a href="Ciencia">Ciencia</a></li>
+            <li><a href="Mundo">Mundo</a></li>
+            <li><a href="Livros">Livros</a></li>
+            <li><a href="Esportes">Esportes</a></li>
+            <li><a href="Tecnologia">Tecnologia</a></li>
+          </ul>
         </div>
       </div>
-      
-      <div class="lista">
-      <ul>
-          <li><a href="default.html">Home</a></li>
-          <li><a href="Negocios">Negocios</a></li>
-          <li><a href="Politica.html">Politica</a></li>
-          <li><a href="Ciencia">Ciencia</a></li>       
-          <li><a href="Mundo">Mundo</a></li>
-          <li><a href="Livros">Livros</a></li>
-          <li><a href="Esportes">Esportes</a></li>
-          <li><a href="Tecnologia">Tecnologia</a></li>
-      </ul>
-    </div>
-    </div>
     </nav>
   </header>
 
-
   <main>
-    <div class="conteudo-slide">
-      <div class="swiper-banner">
-        <div class="swiper-wrapper">
+    <div>
+      <button id="botomslide" onclick="myFunction()">
+        <img id="imageId" class="responsive" src="img/ciencia-tecnologia.jpg">
 
-
-          <div class="swiper-slide">
-            <div class="slide-not" style="background-image: url('./img/tecnologia.jpg');">
-              <div class="bottom">
-                <h1>loren ipson</h1>
-              </div>
-            </div>
-          </div>
-
-          
-          <div class="swiper-slide">
-              <div class="slide-not" style="background-image: url('./img/esportesslide.jpg');">
-              <div class="bottom">
-                <h1>loren ipson</h1>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-              <div class="slide-not" style="background-image: url('./img/mundoslide.jpeg');">
-              <div class="bottom">
-                <h1>loren ipson</h1>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-              <div class="slide-not" style="background-image: url('./img/slides-criativos.png');">
-              <div class="bottom">
-                <h1>loren ipson</h1>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-              <div class="slide-not" style="background-image: url('./img/negocios.png');">
-              <div class="bottom">
-                <h1>loren ipson</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      <div class="swiper-pagination-banner"></div>
-      </div>
+      </button>
     </div>
   </main>
-      
+
   <section class="conteudo">
 
     <div class="noticia coluna">
       <a href="noticia.html">
-          <h2>Noticia 1</h2><br>
-          <img class="noticia-img" src="img/colunas-marvel-140319-divulgacao.jpg" alt=""><br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum itaque molestias qui ratione perspiciatis
-            non rem deleniti reprehenderit ducimus, alias explicabo enim aperiam beatae? Culpa, accusamus reiciendis.
-            Placeat, corrupti pariatur?</p>
-        </a>
-      </div>
+        <h2>Noticia 1</h2><br>
+        <img class="noticia-img" src="img/colunas-marvel-140319-divulgacao.jpg" alt=""><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum itaque molestias qui ratione perspiciatis
+          non rem deleniti reprehenderit ducimus, alias explicabo enim aperiam beatae? Culpa, accusamus reiciendis.
+          Placeat, corrupti pariatur?</p>
+      </a>
+    </div>
 
-      <div class="noticia coluna">
-        <h2>Noticia 2</h2><br>
-        <a href=""><img class="noticia-img" src="img/ciencia-tecnologia.jpg" alt=""></a><br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, eaque, fugit quaerat ullam quas
-          necessitatibus doloremque atque nisi cum quidem magni voluptate odio perspiciatis ipsum, sed iure hic
-          voluptatum!</p>
-      </div>
+    <div class="noticia coluna">
+      <h2>Noticia 2</h2><br>
+      <a href=""><img class="noticia-img" src="img/ciencia-tecnologia.jpg" alt=""></a><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, eaque, fugit quaerat ullam quas
+        necessitatibus doloremque atque nisi cum quidem magni voluptate odio perspiciatis ipsum, sed iure hic
+        voluptatum!</p>
+    </div>
 
-      <div class="noticia coluna">
-        <h2>Noticias 3</h2><br>
-        <img class="noticia-img" src="img/mundo.jpg" alt=""><br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, eaque, fugit quaerat ullam quas
-          necessitatibus doloremque atque nisi cum quidem magni voluptate odio perspiciatis ipsum, sed iure hic
-          voluptatum!</p>
-        </div>
-      </div>
-    </section>
-      
+    <div class="noticia coluna">
+      <h2>Noticias 3</h2><br>
+      <img class="noticia-img" src="img/mundo.jpg" alt=""><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint, eaque, fugit quaerat ullam quas
+        necessitatibus doloremque atque nisi cum quidem magni voluptate odio perspiciatis ipsum, sed iure hic
+        voluptatum!</p>
+    </div>
+    </div>
+  </section>
+
   <footer>
     <div>
       ©Copyright...
@@ -133,10 +89,28 @@
 </body>
 <script src="js/swiper.min.js"></script>
 <script>
-    var swiper = new Swiper('.swiper-banner', {
-      pagination: {
-        el: '.swiper-pagination-banner',
-      },
-    });
+  function myFunction() {
+
+    var imageAtual = document.getElementById("imageId").src;
+
+    if (imageAtual == "http://127.0.0.1:5500/img/ciencia-tecnologia.jpg") {
+      document.getElementById("imageId").src = "img/esportesslide.jpg";
+
+    }
+    if (imageAtual == "http://127.0.0.1:5500/img/tecnologia-banner.jpg") {
+      document.getElementById("imageId").src = "img/tecnologia-banner.jpg";
+
+    }
+    if (imageAtual == "http://127.0.0.1:5500/img/esportesslide.jpg") {
+      document.getElementById("imageId").src = "./img/colunas-marvel-140319-divulgacao.jpg";
+
+    } if (imageAtual == "http://127.0.0.1:5500/img/colunas-marvel-140319-divulgacao.jpg") {
+      document.getElementById("imageId").src = "img/mundo2slide.jpg";
+    }
+    if (imageAtual == "http://127.0.0.1:5500/img/mundo2slide.jpg") {
+      document.getElementById("imageId").src = "img/ciencia-tecnologia.jpg";
+    }
+  }
 </script>
+
 </html>
