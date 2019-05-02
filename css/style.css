@@ -1,5 +1,5 @@
 body{
-    margin: 0px!important;
+    margin: 0px;
     overflow-x: hidden;
     text-decoration: none;
 }
@@ -8,17 +8,16 @@ header{
     height: 50px;
 }
 nav{
-    position: fixed;
+    position: relative;
     z-index: 10000000000;
     background-color: #000;
     width: 100%;
-    height: 50px;
+    height: relative;
 }
-
-
 
 nav .menu{
     display: flex;
+    width: 100%;
     
 }
 nav .menu li{
@@ -34,6 +33,7 @@ nav .menu li a{
     text-transform: capitalize;
 }
 .busca{
+    
     flex: 2;
 }
 .lista{
@@ -84,8 +84,22 @@ img.noticia-img{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+
+    
+  }
+
+  .responsive {
+    width: 100%;
+    height: 400px;
+    margin: 0%;
+  }
+  #botomslide{
+      margin: 0%;
+      border:0%;
+      padding:0%;
   }
   .slide-not{
+      background-image: url(../img/ciencia-tecnologia.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -129,21 +143,10 @@ img.noticia-img{
     font-style:italic; 
   }
 
- @media screen and (max-width:700px)
- {
+  
+        
+        
 
-    header,img.noticia-img,.bottom h1,body,.menu,.busca,.logo,.conteudo-slide .swiper-container .swiper-slide,.coluna,.conteudo-slide.noticia 
-    section a, h2,.slide-not,input,.bottom,nav,nav .menu li,p,img.menu,
-    {
-     
-     width: 100%;
+
     
-
-     
-     
-
-  }
-
-  div.lista{
-
-  }
+    
